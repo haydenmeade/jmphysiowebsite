@@ -1,11 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic|Merienda+One");
 
-/*
-	Arcana by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 /* Reset */
 
@@ -1819,9 +1814,9 @@
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		color: #37c0fb;
+		color: #3A4747;
 		text-decoration: none;
-		border-bottom: dotted 1px;
+		/*border-bottom: dotted 1px;*/
 	}
 
 		a:hover {
@@ -2092,6 +2087,11 @@
 			.icon.major:before {
 				font-size: 36px;
 			}
+		i.icon {
+			color: #999;
+			margin-right:10px;
+
+		}
 
 /* Lists */
 
@@ -2185,7 +2185,7 @@
 			width: 50%;
 		}
 		table.prices {
-			width: 100%;
+			width: 60%;
 		}
 
 			table tbody tr {
@@ -2564,11 +2564,12 @@
 
 		}
 		.wrapper.style1 .container a:hover h2 {
-			color: #c0c0c0;
-			border-bottom:1px #fff solid;
+			color: #37c0fb;
+			/*border-bottom:1px #fff solid;*/
 		}
 		.wrapper.style1 #special {
-			color:#FF0000;
+			/*color:#FF0000;*/
+			text-shadow: 1px 1px 1px #C7C7C7;
 			font-size: 1.3em;
 			font-family: sans-serif;
 		}
@@ -2923,7 +2924,11 @@
 					#titleBar .title em {
 						font-style: normal;
 						font-weight: 300;
+						font-size:0.9em;
+						color:#7D7D7D;
+						font-family:'Merienda One',Helvetica,sans-serif;
 					}
+
 
 				#titleBar .toggle {
 					text-decoration: none;
@@ -3119,7 +3124,7 @@
 				padding: 2em 0 1px 0;
 			}
 		/*table*/
-		table.default {
+		table,table.prices {
 			width:80%;
 		}
 
@@ -3210,7 +3215,7 @@
 				text-align: left;
 			}
 		/*table*/
-	table.default {
+	table,table.prices {
 		width: 100%;
 	}
 
